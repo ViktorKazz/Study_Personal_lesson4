@@ -20,14 +20,13 @@ LRESULT CALLBACK Window::AboutWindowProc(HWND hwnd, UINT message, WPARAM wParam,
 
     const wchar_t* sc_titleText =
     {
-        L"2D Graphics Editor"
+        L"Program for create animation."
     };
 
     const wchar_t* sc_descriptionText =
     {
-        L"Hi all! My name is Victor and I study C++. "
-        "To make learning programming more interesting, "
-        "I decided to learn C++ while creating this 2D editor."
+        L"Hello everyone. My name is Victor. "
+        "In front of you is a program for creating character animation that I create in C++."
     };
 
     if (message == WM_CREATE)
@@ -80,7 +79,7 @@ LRESULT CALLBACK Window::AboutWindowProc(HWND hwnd, UINT message, WPARAM wParam,
         L"textAboutWindowClass_0",
         sc_titleText,
         L"Verdana",
-        28,
+        20,
         0xDC8095,
         0xFEE3EE,
         0xE1B4C6,
@@ -96,7 +95,7 @@ LRESULT CALLBACK Window::AboutWindowProc(HWND hwnd, UINT message, WPARAM wParam,
         NULL,
         WS_VISIBLE | WS_CHILD,
         hwnd,
-        32,
+        44,
         200,
         320,
         80,

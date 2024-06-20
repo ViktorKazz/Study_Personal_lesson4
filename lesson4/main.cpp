@@ -192,7 +192,7 @@ LRESULT CALLBACK Window::MainWindowProc(HWND hwnd, UINT message, WPARAM wParam, 
             600 + 12,
             0,
             L"aboutWindowClass",
-            L"About 2D Graphics Editor"
+            L"About Program"
         };
 
         createPlaneWindow = {
